@@ -13,9 +13,11 @@ Potential Improvements
 
 • Dynamic Widget Loading: In the future, we could enhance the system by using reflection or a plugin architecture to dynamically load new widget types from assemblies.
 like below in WidgetFactory (it will decouple from concrete types and dynamic widgets creation because factory can read configurations)
+
 var type = assembly.GetTypes()
                     .FirstOrDefault(t => t.Name.Equals(typeName, StringComparison.OrdinalIgnoreCase)
                     && typeof(IWidget).IsAssignableFrom(t));
+                    
 but the reflection violates the DIP by tightly coupling the factory to the names of specific classes at runtime, even if this coupling is hidden also the hidden errors at runtime and reduced readability and maintainability
 
 • Rendering Engine: A possible extension could include actual rendering of the widgets, e.g., to an SVG or image format.
