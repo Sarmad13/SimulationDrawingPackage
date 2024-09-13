@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{632090DF-BE5B-416D-AE48-B88F52B92EA4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Simulation-Drawing-Package/Program.cs">
+    <Files>
+      <File FileName="Simulation-Drawing-Package/Program.cs" Line="18" Column="42" />
+      <File FileName="Simulation-Drawing-Package/Factories/WidgetFactory.cs" />
+      <File FileName="Simulation-Drawing-Package/appsettings.json" />
+      <File FileName="Simulation-Drawing-Package/DrawingApp.cs" />
+      <File FileName="Simulation-Drawing-Package/Widgets/Square.cs" />
+      <File FileName="Simulation-Drawing-Package/Widgets/Rectangle.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Simulation-Drawing-Package" expanded="True">
+            <Node name="Simulation-Drawing-Package" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Factories" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Widgets" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="Simulation-Drawing-Package.Tests" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Simulation-Drawing-Package PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/sarmadsaeed/Projects/Simulation-Drawing-Package/Simulation-Drawing-Package/Factories/WidgetFactory.cs" relfile="Simulation-Drawing-Package/Factories/WidgetFactory.cs" line="42" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
