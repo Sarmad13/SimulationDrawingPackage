@@ -22,7 +22,6 @@ namespace Simulation_Drawing_Package.Widgets
         public string Draw()
         {
             return $"Rectangle ({X},{Y}) width={Width} height={Height}";
-            //Console.WriteLine($"Rectangle ({X},{Y}) width={Width} height={Height}");
         }
     }
 }

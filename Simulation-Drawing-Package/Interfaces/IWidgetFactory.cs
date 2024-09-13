@@ -1,12 +1,9 @@
-﻿using System;
-using Microsoft.Extensions.DependencyInjection;
-using Simulation_Drawing_Package.Widgets;
-
+﻿using Simulation_Drawing_Package.Config;
 namespace Simulation_Drawing_Package.Interfaces
 {
     public interface IWidgetFactory
     {
-        IWidget CreateWidget(string widgetType);
+        IWidget CreateWidget(WidgetConfig widgetType);
     }
 }
 

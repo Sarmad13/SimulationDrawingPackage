@@ -25,4 +25,14 @@
   <ItemGroup>
     <ProjectReference Include="..\Simulation-Drawing-Package\Simulation-Drawing-Package.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Widgets\" />
+    <None Remove="Factories\" />
+    <None Remove="Context\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Widgets\" />
+    <Folder Include="Factories\" />
+    <Folder Include="Context\" />
+  </ItemGroup>
 </Project>

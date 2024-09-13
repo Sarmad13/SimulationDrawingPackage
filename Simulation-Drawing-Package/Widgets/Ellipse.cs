@@ -23,7 +23,6 @@ namespace Simulation_Drawing_Package.Widgets
         public string Draw()
         {
             return $"Ellipse ({X},{Y}) diameterH = {HorizontalDiameter} diameterV = {VerticalDiameter}";
-            //Console.WriteLine($"Ellipse ({X},{Y}) diameterH = {HorizontalDiameter} diameterV = {VerticalDiameter}");
         }
     }
 }

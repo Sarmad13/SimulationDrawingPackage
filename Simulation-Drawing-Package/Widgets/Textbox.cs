@@ -24,7 +24,6 @@ namespace Simulation_Drawing_Package.Widgets
         public string Draw()
         {
             return $"Textbox ({X},{Y}) width={Width} height={Height} Text=\"{Text}\"";
-            //Console.WriteLine($"Textbox ({X},{Y}) width={Width} height={Height} Text=\"{Text}\"");
         }
     }
 }

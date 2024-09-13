@@ -20,7 +20,6 @@ namespace Simulation_Drawing_Package.Widgets
         public string Draw()
         {
             return $"Circle ({X},{Y}) size={Diameter}";
-            //Console.WriteLine($"Circle ({X},{Y}) size={Diameter}");
         }
     }
 }
